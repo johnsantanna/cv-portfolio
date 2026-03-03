@@ -1,27 +1,32 @@
-/* Variáveis de cor */
+/* Variáveis de cor — paleta .NET */
 :root {
-  --bg-main: #f1f5f9;
-  --bg-card: #f8fafc;
-  --sidebar-bg: #0f172a;
-  --text-primary: #0d1117;
-  --text-secondary: #374151;
-  --accent: #4f8ef7;
+  --bg-main: #f5f3ff;
+  --bg-card: #fefeff;
+  --sidebar-bg: #3b0764;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --accent: #7c3aed;
   --sidebar-text: #e2e8f0;
-  --sidebar-accent: #4f8ef7;
-  --border: #e2e8f0;
-  --shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
-  --tag-bg: rgba(255, 255, 255, 0.1);
-  --timeline-color: #4f8ef7;
+  --sidebar-accent: #c084fc;
+  --border: #ede9fe;
+  --shadow: 0 2px 15px rgba(124, 58, 237, 0.10);
+  --tag-bg: rgba(124, 58, 237, 0.08);
+  --timeline-color: #7c3aed;
 }
 
 body.dark-mode {
-  --bg-main: #020617;
-  --bg-card: #0f172a;
-  --sidebar-bg: #1e293b;
-  --text-primary: #e2e8f0;
-  --text-secondary: #a0aec0;
-  --border: #1e293b;
-  --shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+  --bg-main: #080215;
+  --bg-card: #0e0428;
+  --sidebar-bg: #1a0440;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent: #a855f7;
+  --sidebar-text: #e2e8f0;
+  --sidebar-accent: #d8b4fe;
+  --border: #2d1060;
+  --shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  --tag-bg: rgba(168, 85, 247, 0.12);
+  --timeline-color: #a855f7;
 }
 
 * {
@@ -48,6 +53,8 @@ body {
   border-radius: 8px;
   overflow: hidden;
   background: var(--bg-card);
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 1160px) {
@@ -155,7 +162,7 @@ body {
 }
 
 .badge-pj {
-  background: #3b82f6;
+  background: #7c3aed;
   color: white;
   font-size: 0.7rem;
   padding: 2px 8px;

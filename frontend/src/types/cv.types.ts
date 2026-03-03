@@ -26,6 +26,15 @@ export interface Experience {
   tipo: string;
   atividadesPt: string[];
   atividadesEn: string[];
+  projetos?: Projeto[];
+}
+
+export interface Projeto {
+  titulo: string;
+  tituloEn: string;
+  descricaoPt: string;
+  descricaoEn: string;
+  tags: string[];
 }
 
 export interface SkillCategory {

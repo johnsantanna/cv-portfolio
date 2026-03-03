@@ -4,6 +4,7 @@ import { useCv } from './hooks/useCv';
 import Sidebar from './components/Sidebar/Sidebar';
 import Summary from './components/Summary/Summary';
 import Experience from './components/Experience/Experience';
+import FloatingCode from './components/FloatingCode/FloatingCode';
 
 export type Lang = 'pt' | 'en';
 
@@ -50,21 +51,24 @@ function App() {
   }
 
   return (
-    <div className="cv-page">
-      <div className="cv-container">
-        <Sidebar
-          cv={cv}
-          lang={lang}
-          darkMode={darkMode}
-          onToggleLang={toggleLang}
-          onToggleDarkMode={toggleDarkMode}
-        />
-        <main className="main-content">
-          <Summary cv={cv} lang={lang} />
-          <Experience cv={cv} lang={lang} />
-        </main>
+    <>
+      <FloatingCode />
+      <div className="cv-page">
+        <div className="cv-container">
+          <Sidebar
+            cv={cv}
+            lang={lang}
+            darkMode={darkMode}
+            onToggleLang={toggleLang}
+            onToggleDarkMode={toggleDarkMode}
+          />
+          <main className="main-content">
+            <Summary cv={cv} lang={lang} />
+            <Experience cv={cv} lang={lang} />
+          </main>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

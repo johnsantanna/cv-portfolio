@@ -17,27 +17,6 @@ public class CvService
         Experiencias: new List<Experience>
         {
             new Experience(
-                Empresa: "JTECH SOLUÇÕES",
-                Cargo: "Desenvolvedor Full Stack",
-                CargoEn: "Full Stack Developer",
-                Periodo: "Jun/2022 - Atual",
-                Tipo: "PJ",
-                AtividadesPt: new List<string>
-                {
-                    "[2024-2025] Projeto Java: API REST com Java Spring Boot MVC + JPA, substituindo legado VBA/Excel. MySQL + Oracle, autenticação, documentação. Resultado: 70% melhoria de performance",
-                    "[2025-2026] Sustentação de sistemas .NET (ASP.NET WebForms) e WMS (ASP Clássico)",
-                    "[2022-2026] Otimização de consultas SQL Server, stored procedures e triggers",
-                    "[2022-2026] Desenvolvimento fullstack (Java Spring Boot / .NET Core), modelagem de dados e integração multi-banco"
-                },
-                AtividadesEn: new List<string>
-                {
-                    "[2024-2025] Java Project: REST API with Java Spring Boot MVC + JPA, replacing legacy VBA/Excel. MySQL + Oracle, authentication, documentation. Result: 70% performance improvement",
-                    "[2025-2026] Maintenance of .NET systems (ASP.NET WebForms) and WMS (Classic ASP)",
-                    "[2022-2026] SQL Server query optimization, stored procedures and triggers",
-                    "[2022-2026] Fullstack development (Java Spring Boot / .NET Core), data modeling and multi-database integration"
-                }
-            ),
-            new Experience(
                 Empresa: "Hydac",
                 Cargo: "Desenvolvedor Full Stack",
                 CargoEn: "Full Stack Developer",
@@ -130,6 +109,46 @@ public class CvService
                     "SQL Server script development and VBA automations",
                     "Database integration and .NET WebForms (SaaS) maintenance in Azure DevOps",
                     "Team management and support tickets, GLPI, Spiceworks, Movidesk implementation"
+                }
+            ),
+            new Experience(
+                Empresa: "JTECH SOLUÇÕES",
+                Cargo: "Projetos Profissionais",
+                CargoEn: "Freelance Projects",
+                Periodo: "Jun/2022 - Jan/2026",
+                Tipo: "Consultor",
+                AtividadesPt: new List<string>(),
+                AtividadesEn: new List<string>(),
+                Projetos: new List<Projeto>
+                {
+                    new Projeto(
+                        Titulo: "[2024-2025] API REST com Java Spring Boot + JPA",
+                        TituloEn: "[2024-2025] REST API with Java Spring Boot + JPA",
+                        DescricaoPt: "Substituição de legado VBA/Excel. MySQL + Oracle, autenticação, documentação. Resultado: 70% melhoria de performance.",
+                        DescricaoEn: "Replacing legacy VBA/Excel. MySQL + Oracle, authentication, documentation. Result: 70% performance improvement.",
+                        Tags: new List<string> { "Java", "Spring Boot", "JPA", "MySQL", "Oracle", "REST API" }
+                    ),
+                    new Projeto(
+                        Titulo: "[2025-2026] Sustentação .NET WebForms e WMS",
+                        TituloEn: "[2025-2026] .NET WebForms & WMS Maintenance",
+                        DescricaoPt: "Manutenção de sistemas ASP.NET WebForms e WMS (ASP Clássico).",
+                        DescricaoEn: "Maintenance of ASP.NET WebForms and WMS (Classic ASP) systems.",
+                        Tags: new List<string> { "C#", ".NET", "ASP.NET WebForms", "ASP Clássico", "WMS" }
+                    ),
+                    new Projeto(
+                        Titulo: "[2022-2026] Otimização de Banco de Dados",
+                        TituloEn: "[2022-2026] Database Optimization",
+                        DescricaoPt: "Otimização de consultas SQL Server, stored procedures e triggers.",
+                        DescricaoEn: "SQL Server query optimization, stored procedures and triggers.",
+                        Tags: new List<string> { "SQL Server", "Stored Procedures", "Triggers", "Performance" }
+                    ),
+                    new Projeto(
+                        Titulo: "[2022-2026] Desenvolvimento Fullstack",
+                        TituloEn: "[2022-2026] Fullstack Development",
+                        DescricaoPt: "Java Spring Boot / .NET Core, modelagem de dados e integração multi-banco.",
+                        DescricaoEn: "Java Spring Boot / .NET Core, data modeling and multi-database integration.",
+                        Tags: new List<string> { "Java", "Spring Boot", ".NET Core", "SQL Server", "Oracle", "MySQL" }
+                    )
                 }
             )
         },

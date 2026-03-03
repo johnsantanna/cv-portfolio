@@ -27,7 +27,16 @@ public record Experience(
     string Periodo,
     string Tipo,
     List<string> AtividadesPt,
-    List<string> AtividadesEn
+    List<string> AtividadesEn,
+    List<Projeto>? Projetos = null
+);
+
+public record Projeto(
+    string Titulo,
+    string TituloEn,
+    string DescricaoPt,
+    string DescricaoEn,
+    List<string> Tags
 );
 
 public record SkillCategory(string Categoria, string CategoriaEn, List<string> Skills);

@@ -35,23 +35,55 @@ const Experience: React.FC<ExperienceProps> = ({ cv, lang }) => {
           <div className="timeline-item" key={i}>
             <div className="timeline-marker"></div>
             <div className="timeline-content">
-              <div className="job-header">
-                <h3>
-                  {lang === 'pt' ? exp.cargo : exp.cargoEn}
-                  {exp.tipo === 'PJ' ? (
-                    <span className="badge-pj">PJ</span>
-                  ) : (
-                    <span className="badge-clt">CLT</span>
-                  )}
-                </h3>
-                <span className="job-date">{exp.periodo}</span>
-              </div>
-              <span className="company-name">{exp.empresa}</span>
-              <ul className="dense-list">
-                {(lang === 'pt' ? exp.atividadesPt : exp.atividadesEn).map((atividade, j) => (
-                  <li key={j}>{atividade}</li>
-                ))}
-              </ul>
+              {exp.projetos ? (
+                // Seção de projetos autônomos
+                <>
+                  <div className="job-header">
+                    <h3 className="projects-title">
+                      {lang === 'pt' ? 'Projetos Profissionais' : 'Freelance Projects'}
+                    </h3>
+                    <span className="job-date">{exp.periodo}</span>
+                  </div>
+                  <span className="company-name consultant-label">
+                    {lang === 'pt' ? 'Consultor Independente' : 'Independent Consultant'}
+                    {' · '}{exp.empresa}
+                  </span>
+                  <div className="project-list">
+                    {exp.projetos.map((proj, j) => (
+                      <div className="project-card" key={j}>
+                        <p className="project-title">{lang === 'pt' ? proj.titulo : proj.tituloEn}</p>
+                        <p className="project-desc">{lang === 'pt' ? proj.descricaoPt : proj.descricaoEn}</p>
+                        <div className="tags-container">
+                          {proj.tags.map((tag, k) => (
+                            <span className="tag" key={k}>{tag}</span>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              ) : (
+                // Experiência CLT/PJ normal
+                <>
+                  <div className="job-header">
+                    <h3>
+                      {lang === 'pt' ? exp.cargo : exp.cargoEn}
+                      {exp.tipo === 'PJ' ? (
+                        <span className="badge-pj">PJ</span>
+                      ) : (
+                        <span className="badge-clt">CLT</span>
+                      )}
+                    </h3>
+                    <span className="job-date">{exp.periodo}</span>
+                  </div>
+                  <span className="company-name">{exp.empresa}</span>
+                  <ul className="dense-list">
+                    {(lang === 'pt' ? exp.atividadesPt : exp.atividadesEn).map((atividade, j) => (
+                      <li key={j}>{atividade}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
             </div>
           </div>
         ))}

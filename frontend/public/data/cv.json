@@ -10,25 +10,6 @@
   "resumoEn": "Fullstack Developer with 4 years of experience in .NET and Java, 7 years in databases (SQL Server, MySQL, Oracle), and 10\u002B years in IT. Expertise in REST API development, legacy system modernization, performance optimization, and system integration. Experienced with C#, Java (Spring Boot), ASP.NET (WebForms, MVC, Core), Entity Framework, JPA, and layered architecture. Focused on scalable, secure, and high-performance solutions.",
   "experiencias": [
     {
-      "empresa": "JTECH SOLU\u00C7\u00D5ES",
-      "cargo": "Desenvolvedor Full Stack",
-      "cargoEn": "Full Stack Developer",
-      "periodo": "Jun/2022 - Atual",
-      "tipo": "PJ",
-      "atividadesPt": [
-        "[2024-2025] Projeto Java: API REST com Java Spring Boot MVC \u002B JPA, substituindo legado VBA/Excel. MySQL \u002B Oracle, autentica\u00E7\u00E3o, documenta\u00E7\u00E3o. Resultado: 70% melhoria de performance",
-        "[2025-2026] Sustenta\u00E7\u00E3o de sistemas .NET (ASP.NET WebForms) e WMS (ASP Cl\u00E1ssico)",
-        "[2022-2026] Otimiza\u00E7\u00E3o de consultas SQL Server, stored procedures e triggers",
-        "[2022-2026] Desenvolvimento fullstack (Java Spring Boot / .NET Core), modelagem de dados e integra\u00E7\u00E3o multi-banco"
-      ],
-      "atividadesEn": [
-        "[2024-2025] Java Project: REST API with Java Spring Boot MVC \u002B JPA, replacing legacy VBA/Excel. MySQL \u002B Oracle, authentication, documentation. Result: 70% performance improvement",
-        "[2025-2026] Maintenance of .NET systems (ASP.NET WebForms) and WMS (Classic ASP)",
-        "[2022-2026] SQL Server query optimization, stored procedures and triggers",
-        "[2022-2026] Fullstack development (Java Spring Boot / .NET Core), data modeling and multi-database integration"
-      ]
-    },
-    {
       "empresa": "Hydac",
       "cargo": "Desenvolvedor Full Stack",
       "cargoEn": "Full Stack Developer",
@@ -45,7 +26,8 @@
         "Management of VBA system integrated with ERP Protheus (Oracle) and MariaDB",
         "Migration of legacy system to ASP.NET Core MVC with Entity Framework",
         "Creation of SQL reports with Oracle syntax for Totvs Protheus"
-      ]
+      ],
+      "projetos": null
     },
     {
       "empresa": "Solid Solu\u00E7\u00F5es",
@@ -64,7 +46,8 @@
         "Development with ASP.NET Core MVC, Entity Framework and REST APIs",
         "Implementation of triggers, file uploads and automations with JavaScript, jQuery and SQL Server",
         "Creation of web forms with Java (Spring Boot)"
-      ]
+      ],
+      "projetos": null
     },
     {
       "empresa": "Tirreno - Moovelub",
@@ -79,7 +62,8 @@
       "atividadesEn": [
         "Protheus (Totvs) support and Power BI reporting",
         "GLPI implementation and ticket management"
-      ]
+      ],
+      "projetos": null
     },
     {
       "empresa": "Paula Torres",
@@ -94,7 +78,8 @@
       "atividadesEn": [
         "Systems support and data modeling",
         "Development of VBA macros for routine automation"
-      ]
+      ],
+      "projetos": null
     },
     {
       "empresa": "Milaneli Sistemas",
@@ -111,6 +96,71 @@
         "SQL Server script development and VBA automations",
         "Database integration and .NET WebForms (SaaS) maintenance in Azure DevOps",
         "Team management and support tickets, GLPI, Spiceworks, Movidesk implementation"
+      ],
+      "projetos": null
+    },
+    {
+      "empresa": "JTECH SOLU\u00C7\u00D5ES",
+      "cargo": "Projetos Profissionais",
+      "cargoEn": "Freelance Projects",
+      "periodo": "Jun/2022 - Jan/2026",
+      "tipo": "Consultor",
+      "atividadesPt": [],
+      "atividadesEn": [],
+      "projetos": [
+        {
+          "titulo": "[2024-2025] API REST com Java Spring Boot \u002B JPA",
+          "tituloEn": "[2024-2025] REST API with Java Spring Boot \u002B JPA",
+          "descricaoPt": "Substitui\u00E7\u00E3o de legado VBA/Excel. MySQL \u002B Oracle, autentica\u00E7\u00E3o, documenta\u00E7\u00E3o. Resultado: 70% melhoria de performance.",
+          "descricaoEn": "Replacing legacy VBA/Excel. MySQL \u002B Oracle, authentication, documentation. Result: 70% performance improvement.",
+          "tags": [
+            "Java",
+            "Spring Boot",
+            "JPA",
+            "MySQL",
+            "Oracle",
+            "REST API"
+          ]
+        },
+        {
+          "titulo": "[2025-2026] Sustenta\u00E7\u00E3o .NET WebForms e WMS",
+          "tituloEn": "[2025-2026] .NET WebForms \u0026 WMS Maintenance",
+          "descricaoPt": "Manuten\u00E7\u00E3o de sistemas ASP.NET WebForms e WMS (ASP Cl\u00E1ssico).",
+          "descricaoEn": "Maintenance of ASP.NET WebForms and WMS (Classic ASP) systems.",
+          "tags": [
+            "C#",
+            ".NET",
+            "ASP.NET WebForms",
+            "ASP Cl\u00E1ssico",
+            "WMS"
+          ]
+        },
+        {
+          "titulo": "[2022-2026] Otimiza\u00E7\u00E3o de Banco de Dados",
+          "tituloEn": "[2022-2026] Database Optimization",
+          "descricaoPt": "Otimiza\u00E7\u00E3o de consultas SQL Server, stored procedures e triggers.",
+          "descricaoEn": "SQL Server query optimization, stored procedures and triggers.",
+          "tags": [
+            "SQL Server",
+            "Stored Procedures",
+            "Triggers",
+            "Performance"
+          ]
+        },
+        {
+          "titulo": "[2022-2026] Desenvolvimento Fullstack",
+          "tituloEn": "[2022-2026] Fullstack Development",
+          "descricaoPt": "Java Spring Boot / .NET Core, modelagem de dados e integra\u00E7\u00E3o multi-banco.",
+          "descricaoEn": "Java Spring Boot / .NET Core, data modeling and multi-database integration.",
+          "tags": [
+            "Java",
+            "Spring Boot",
+            ".NET Core",
+            "SQL Server",
+            "Oracle",
+            "MySQL"
+          ]
+        }
       ]
     }
   ],
@@ -157,7 +207,7 @@
       "categoria": "Outros",
       "categoriaEn": "Others",
       "skills": [
-        "VBA",
+        "VBA \u002B8 anos",
         "Power BI",
         "DAX",
         "Git",

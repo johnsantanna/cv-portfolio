@@ -13,7 +13,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #4f8ef7, #7c3aed);
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@
 
 .role {
   font-size: 0.8rem;
-  color: #4f8ef7;
+  color: var(--sidebar-accent);
   margin-bottom: 0.5rem;
   line-height: 1.4;
 }
@@ -52,7 +52,7 @@
 
 .location svg {
   margin-right: 0.3rem;
-  color: #4f8ef7;
+  color: var(--sidebar-accent);
 }
 
 .sidebar-controls {
@@ -89,15 +89,15 @@
 
 @keyframes pulse-download {
   0% {
-    box-shadow: 0 0 0 0 rgba(79, 142, 247, 0.55);
+    box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.55);
   }
 
   60% {
-    box-shadow: 0 0 0 8px rgba(79, 142, 247, 0);
+    box-shadow: 0 0 0 8px rgba(168, 85, 247, 0);
   }
 
   100% {
-    box-shadow: 0 0 0 0 rgba(79, 142, 247, 0);
+    box-shadow: 0 0 0 0 rgba(168, 85, 247, 0);
   }
 }
 
@@ -106,7 +106,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: #4f8ef7;
+  background: #7c3aed;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -116,7 +116,7 @@
 }
 
 .btn-download:hover {
-  background: #3b7de8;
+  background: #6d28d9;
 }
 
 .separator {
@@ -158,11 +158,11 @@
 }
 
 .contact-list a:hover {
-  color: #4f8ef7;
+  color: var(--sidebar-accent);
 }
 
 .contact-list svg {
-  color: #4f8ef7;
+  color: var(--sidebar-accent);
   width: 16px;
 }
 
@@ -203,8 +203,8 @@
 }
 
 .status-andamento {
-  background: #1e3a5f;
-  color: #93c5fd;
+  background: #3b1a6b;
+  color: #e9d5ff;
 }
 
 .status-trancado {

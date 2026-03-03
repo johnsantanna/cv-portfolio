@@ -1,3 +1,48 @@
 .experience-section {
   margin-bottom: 2.5rem;
 }
+
+/* Projetos Profissionais */
+.projects-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.consultant-label {
+  font-style: italic;
+  opacity: 0.85;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.project-card {
+  border-left: 3px solid var(--accent);
+  padding: 0.6rem 0.85rem;
+  background: var(--tag-bg);
+  border-radius: 0 6px 6px 0;
+}
+
+.project-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.project-desc {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.project-card .tag {
+  color: var(--accent);
+  border-color: rgba(124, 58, 237, 0.25);
+}
