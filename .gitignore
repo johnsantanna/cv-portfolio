@@ -1,0 +1,15 @@
+# .NET build artifacts
+backend/bin/
+backend/obj/
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# VS
+.vs/
+*.user
+
+# Env files
+.env
+.env.local
