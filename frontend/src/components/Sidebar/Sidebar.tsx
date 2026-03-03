@@ -70,9 +70,10 @@ const Sidebar: React.FC<SidebarProps> = ({ cv, lang, darkMode, onToggleLang, onT
           {darkMode ? ' Modo Claro' : ' Modo Escuro'}
         </button>
         <div className="download-container">
-          <a href="#" onClick={e => { e.preventDefault(); window.print(); }} className="btn-download">
+          <span className="btn-download disabled" title="Em desenvolvimento">
             <FontAwesomeIcon icon={faFilePdf} /> Download CV (PDF)
-          </a>
+          </span>
+          <span className="tooltip-dev">Em breve</span>
         </div>
       </div>
 
