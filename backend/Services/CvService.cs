@@ -1,4 +1,4 @@
-using Backend.Models;
+﻿using Backend.Models;
 
 namespace Backend.Services;
 
@@ -187,8 +187,8 @@ public class CvService
         Diferenciais: new List<string>
         {
             "Modernização de sistemas legados com resultados mensuráveis",
-            "Fullstack .NET + Java — versatilidade para diferentes stacks",
-            "7 anos SQL — modelagem, otimização e integração multi-banco",
+            "Fullstack .NET + Java - versatilidade para diferentes stacks",
+            "7 anos SQL - modelagem, otimização e integração multi-banco",
             "Projeto Java/.NET em produção com documentação e handoff estruturado"
         },
         Certificacoes: new List<Certification>

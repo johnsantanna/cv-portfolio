@@ -1,8 +1,11 @@
 .main-content {
   padding: 2.5rem 2rem;
-  max-width: 900px;
+  background: var(--bg-card);
+  transition: background 0.3s;
 }
 
 @media (max-width: 768px) {
-  .main-content { padding: 1.5rem 1rem; }
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
 }

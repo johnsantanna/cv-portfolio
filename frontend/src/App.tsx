@@ -50,18 +50,20 @@ function App() {
   }
 
   return (
-    <div className="cv-container">
-      <Sidebar
-        cv={cv}
-        lang={lang}
-        darkMode={darkMode}
-        onToggleLang={toggleLang}
-        onToggleDarkMode={toggleDarkMode}
-      />
-      <main className="main-content">
-        <Summary cv={cv} lang={lang} />
-        <Experience cv={cv} lang={lang} />
-      </main>
+    <div className="cv-page">
+      <div className="cv-container">
+        <Sidebar
+          cv={cv}
+          lang={lang}
+          darkMode={darkMode}
+          onToggleLang={toggleLang}
+          onToggleDarkMode={toggleDarkMode}
+        />
+        <main className="main-content">
+          <Summary cv={cv} lang={lang} />
+          <Experience cv={cv} lang={lang} />
+        </main>
+      </div>
     </div>
   );
 }

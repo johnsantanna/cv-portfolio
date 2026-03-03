@@ -41,7 +41,18 @@ const Sidebar: React.FC<SidebarProps> = ({ cv, lang, darkMode, onToggleLang, onT
   return (
     <aside className="sidebar" ref={sidebarRef}>
       <div className="profile-header fade-in">
-        <div className="profile-initials">{cv.iniciais}</div>
+        <div className="profile-avatar">
+          <img
+            src="/assets/profile.png"
+            alt={cv.nome}
+            onError={(e) => {
+              const el = e.currentTarget;
+              el.style.display = 'none';
+              el.nextElementSibling?.removeAttribute('style');
+            }}
+          />
+          <span style={{ display: 'none' }}>{cv.iniciais}</span>
+        </div>
         <h1 className="name">{cv.nome}</h1>
         <p className="role">{cv.cargo}</p>
         <div className="location">
@@ -54,11 +65,11 @@ const Sidebar: React.FC<SidebarProps> = ({ cv, lang, darkMode, onToggleLang, onT
           <FontAwesomeIcon icon={faGlobe} />
           {lang === 'pt' ? ' English Version' : ' Mudar para Português'}
         </button>
-        <button onClick={onToggleDarkMode} className="btn-sidebar">
+        <button onClick={onToggleDarkMode} className="btn-sidebar btn-darkmode">
           <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
           {darkMode ? ' Modo Claro' : ' Modo Escuro'}
         </button>
-        <div className="download-container fade-in">
+        <div className="download-container">
           <a href="#" onClick={e => { e.preventDefault(); window.print(); }} className="btn-download">
             <FontAwesomeIcon icon={faFilePdf} /> Download CV (PDF)
           </a>
