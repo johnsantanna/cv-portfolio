@@ -1,6 +1,7 @@
 # .NET build artifacts
 backend/bin/
 backend/obj/
+backend/Properties/
 
 # Node modules
 frontend/node_modules/
