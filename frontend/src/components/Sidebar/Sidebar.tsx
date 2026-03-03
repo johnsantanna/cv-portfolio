@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+﻿import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faMapPin, faGlobe, faMoon, faSun, faFilePdf, faEnvelope, faPhone,
@@ -43,7 +43,7 @@ const Sidebar: React.FC<SidebarProps> = ({ cv, lang, darkMode, onToggleLang, onT
       <div className="profile-header fade-in">
         <div className="profile-avatar">
           <img
-            src="/assets/profile.png"
+            src={`${import.meta.env.BASE_URL}assets/profile.png`}
             alt={cv.nome}
             onError={(e) => {
               const el = e.currentTarget;
