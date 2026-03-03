@@ -153,7 +153,7 @@ public class CvService
             new SkillCategory(
                 Categoria: "Outros",
                 CategoriaEn: "Others",
-                Skills: new List<string> { "VBA", "Power BI", "DAX", "Git", "Power Automate" }
+                Skills: new List<string> { "VBA +8 anos", "Power BI", "DAX", "Git", "Power Automate" }
             )
         },
         SoftSkills: new List<string> { "Comunicação", "Trabalho sob Pressão", "Melhoria Contínua", "Proatividade" },

@@ -1,0 +1,218 @@
+{
+  "nome": "Arylton John Sant\u0027Anna Santos",
+  "iniciais": "JS",
+  "cargo": "Desenvolvedor Fullstack .NET | Java | SQL",
+  "local": "Diadema - SP (Grande ABC)",
+  "email": "john.santannas@gmail.com",
+  "telefone": "(11) 98855-4981",
+  "linkedin": "https://linkedin.com/in/john-santanna",
+  "resumoPt": "Desenvolvedor Fullstack com 4 anos de experi\u00EAncia em .NET e Java, 7 anos em bancos de dados (SQL Server, MySQL, Oracle) e \u002B10 anos em TI. Expertise em desenvolvimento de APIs REST, moderniza\u00E7\u00E3o de sistemas legados, otimiza\u00E7\u00E3o de performance e integra\u00E7\u00E3o de sistemas. Experi\u00EAncia com C#, Java (Spring Boot), ASP.NET (WebForms, MVC, Core), Entity Framework, JPA e arquitetura em camadas. Foco em solu\u00E7\u00F5es escal\u00E1veis, seguras e de alta performance.",
+  "resumoEn": "Fullstack Developer with 4 years of experience in .NET and Java, 7 years in databases (SQL Server, MySQL, Oracle), and 10\u002B years in IT. Expertise in REST API development, legacy system modernization, performance optimization, and system integration. Experienced with C#, Java (Spring Boot), ASP.NET (WebForms, MVC, Core), Entity Framework, JPA, and layered architecture. Focused on scalable, secure, and high-performance solutions.",
+  "experiencias": [
+    {
+      "empresa": "JTECH SOLU\u00C7\u00D5ES",
+      "cargo": "Desenvolvedor Full Stack",
+      "cargoEn": "Full Stack Developer",
+      "periodo": "Jun/2022 - Atual",
+      "tipo": "PJ",
+      "atividadesPt": [
+        "[2024-2025] Projeto Java: API REST com Java Spring Boot MVC \u002B JPA, substituindo legado VBA/Excel. MySQL \u002B Oracle, autentica\u00E7\u00E3o, documenta\u00E7\u00E3o. Resultado: 70% melhoria de performance",
+        "[2025-2026] Sustenta\u00E7\u00E3o de sistemas .NET (ASP.NET WebForms) e WMS (ASP Cl\u00E1ssico)",
+        "[2022-2026] Otimiza\u00E7\u00E3o de consultas SQL Server, stored procedures e triggers",
+        "[2022-2026] Desenvolvimento fullstack (Java Spring Boot / .NET Core), modelagem de dados e integra\u00E7\u00E3o multi-banco"
+      ],
+      "atividadesEn": [
+        "[2024-2025] Java Project: REST API with Java Spring Boot MVC \u002B JPA, replacing legacy VBA/Excel. MySQL \u002B Oracle, authentication, documentation. Result: 70% performance improvement",
+        "[2025-2026] Maintenance of .NET systems (ASP.NET WebForms) and WMS (Classic ASP)",
+        "[2022-2026] SQL Server query optimization, stored procedures and triggers",
+        "[2022-2026] Fullstack development (Java Spring Boot / .NET Core), data modeling and multi-database integration"
+      ]
+    },
+    {
+      "empresa": "Hydac",
+      "cargo": "Desenvolvedor Full Stack",
+      "cargoEn": "Full Stack Developer",
+      "periodo": "Ago/2025 - Jan/2026",
+      "tipo": "PJ",
+      "atividadesPt": [
+        "Implanta\u00E7\u00E3o de sistema de laudo t\u00E9cnico (WebForms, MVC, JavaScript, jQuery, Bootstrap, MySQL, Git/GitHub)",
+        "Gest\u00E3o de sistema VBA integrado ao ERP Protheus (Oracle) e MariaDB",
+        "Migra\u00E7\u00E3o de sistema legado para ASP.NET Core MVC com Entity Framework",
+        "Cria\u00E7\u00E3o de relat\u00F3rios SQL com sintaxe Oracle para Totvs Protheus"
+      ],
+      "atividadesEn": [
+        "Implementation of technical report system (WebForms, MVC, JavaScript, jQuery, Bootstrap, MySQL, Git/GitHub)",
+        "Management of VBA system integrated with ERP Protheus (Oracle) and MariaDB",
+        "Migration of legacy system to ASP.NET Core MVC with Entity Framework",
+        "Creation of SQL reports with Oracle syntax for Totvs Protheus"
+      ]
+    },
+    {
+      "empresa": "Solid Solu\u00E7\u00F5es",
+      "cargo": "Desenvolvedor Full Stack",
+      "cargoEn": "Full Stack Developer",
+      "periodo": "Fev/2025 - Ago/2025",
+      "tipo": "PJ",
+      "atividadesPt": [
+        "Manuten\u00E7\u00E3o de sistemas legados (ASP Cl\u00E1ssico, WebForms)",
+        "Desenvolvimento com ASP.NET Core MVC, Entity Framework e APIs REST",
+        "Implementa\u00E7\u00E3o de triggers, uploads de arquivos e automa\u00E7\u00F5es com JavaScript, jQuery e SQL Server",
+        "Cria\u00E7\u00E3o de formul\u00E1rios web com Java (Spring Boot)"
+      ],
+      "atividadesEn": [
+        "Maintenance of legacy systems (Classic ASP, WebForms)",
+        "Development with ASP.NET Core MVC, Entity Framework and REST APIs",
+        "Implementation of triggers, file uploads and automations with JavaScript, jQuery and SQL Server",
+        "Creation of web forms with Java (Spring Boot)"
+      ]
+    },
+    {
+      "empresa": "Tirreno - Moovelub",
+      "cargo": "Analista de TI",
+      "cargoEn": "IT Analyst",
+      "periodo": "Jan/2024 - Ago/2024",
+      "tipo": "CLT",
+      "atividadesPt": [
+        "Suporte ao Protheus (Totvs) e relat\u00F3rios em Power BI",
+        "Implanta\u00E7\u00E3o do GLPI e gest\u00E3o de chamados"
+      ],
+      "atividadesEn": [
+        "Protheus (Totvs) support and Power BI reporting",
+        "GLPI implementation and ticket management"
+      ]
+    },
+    {
+      "empresa": "Paula Torres",
+      "cargo": "Analista de TI",
+      "cargoEn": "IT Analyst",
+      "periodo": "Ago/2023 - Dez/2023",
+      "tipo": "CLT",
+      "atividadesPt": [
+        "Suporte a sistemas e modelagem de dados",
+        "Desenvolvimento de macros VBA para automatiza\u00E7\u00E3o de rotinas"
+      ],
+      "atividadesEn": [
+        "Systems support and data modeling",
+        "Development of VBA macros for routine automation"
+      ]
+    },
+    {
+      "empresa": "Milaneli Sistemas",
+      "cargo": "Desenvolvedor",
+      "cargoEn": "Developer",
+      "periodo": "Ago/2016 - Jan/2023",
+      "tipo": "CLT",
+      "atividadesPt": [
+        "Desenvolvimento de scripts SQL Server e automa\u00E7\u00F5es VBA",
+        "Integra\u00E7\u00E3o com bancos de dados e sustenta\u00E7\u00F5es em .NET WebForms (SaaS) em Azure DevOps",
+        "Gest\u00E3o de equipe e tickets de suporte, implanta\u00E7\u00E3o de GLPI, Spiceworks, Movidesk"
+      ],
+      "atividadesEn": [
+        "SQL Server script development and VBA automations",
+        "Database integration and .NET WebForms (SaaS) maintenance in Azure DevOps",
+        "Team management and support tickets, GLPI, Spiceworks, Movidesk implementation"
+      ]
+    }
+  ],
+  "habilidades": [
+    {
+      "categoria": "Back-end \u0026 Linguagens",
+      "categoriaEn": "Back-end \u0026 Languages",
+      "skills": [
+        "C#",
+        ".NET Framework",
+        ".NET 6\u002B",
+        "ASP.NET Core",
+        "Entity Framework",
+        "APIs REST",
+        "Java",
+        "Spring Boot",
+        "Python"
+      ]
+    },
+    {
+      "categoria": "Front-end",
+      "categoriaEn": "Front-end",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "AJAX",
+        "Bootstrap",
+        "React"
+      ]
+    },
+    {
+      "categoria": "Banco de Dados",
+      "categoriaEn": "Databases",
+      "skills": [
+        "SQL Server",
+        "Oracle",
+        "MySQL",
+        "MariaDB"
+      ]
+    },
+    {
+      "categoria": "Outros",
+      "categoriaEn": "Others",
+      "skills": [
+        "VBA",
+        "Power BI",
+        "DAX",
+        "Git",
+        "Power Automate"
+      ]
+    }
+  ],
+  "softSkills": [
+    "Comunica\u00E7\u00E3o",
+    "Trabalho sob Press\u00E3o",
+    "Melhoria Cont\u00EDnua",
+    "Proatividade"
+  ],
+  "formacoes": [
+    {
+      "curso": "An\u00E1lise e Desenvolvimento de Sistemas",
+      "cursoEn": "Systems Analysis and Development",
+      "instituicao": "Anhanguera SBC",
+      "periodo": "2023 - 2026",
+      "status": "Em andamento",
+      "statusEn": "In progress"
+    },
+    {
+      "curso": "Ci\u00EAncias da Computa\u00E7\u00E3o",
+      "cursoEn": "Computer Science",
+      "instituicao": "Uninove Vergueiro",
+      "periodo": "2013 - 2014",
+      "status": "Trancado",
+      "statusEn": "Interrupted"
+    },
+    {
+      "curso": "T\u00E9cnico em Inform\u00E1tica",
+      "cursoEn": "Technical Degree in IT",
+      "instituicao": "SOS Computadores",
+      "periodo": "2009 - 2011",
+      "status": "Conclu\u00EDdo",
+      "statusEn": "Completed"
+    }
+  ],
+  "diferenciais": [
+    "Moderniza\u00E7\u00E3o de sistemas legados com resultados mensur\u00E1veis",
+    "Fullstack .NET \u002B Java - versatilidade para diferentes stacks",
+    "7 anos SQL - modelagem, otimiza\u00E7\u00E3o e integra\u00E7\u00E3o multi-banco",
+    "Projeto Java/.NET em produ\u00E7\u00E3o com documenta\u00E7\u00E3o e handoff estruturado"
+  ],
+  "certificacoes": [
+    {
+      "nome": "Portf\u00F3lio Alura (ASP.NET, C#, Java, Power BI)",
+      "url": "https://bit.ly/john-certificados"
+    },
+    {
+      "nome": "C# POO Completo \u2013 Udemy (Nelio Alves)",
+      "url": "https://bit.ly/john-udemy-csharp"
+    }
+  ],
+  "idiomas": "Ingl\u00EAs \u2013 Leitura e escrita t\u00E9cnica (conversa\u00E7\u00E3o em desenvolvimento)",
+  "infraestrutura": "Home-office completo"
+}
